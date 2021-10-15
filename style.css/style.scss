@@ -1,0 +1,21 @@
+$bgcolor: rgb(9, 68, 124);
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+@import "./parciales/navbar";
+@import "./parciales/hero";
+@import "./parciales/footer";
+@import "./parciales/bio";
+@import "./parciales/galeria";
+@import "./parciales/piloto";
+@import "./parciales/contacto";
+@import "./parciales/media-queries";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body{
+    font-family: Roboto, sans-serif;
+  }

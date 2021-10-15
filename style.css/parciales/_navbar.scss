@@ -1,0 +1,41 @@
+.navbar{
+    background-color: $bgcolor;
+    height: 90px;
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    align-items: center;
+
+    &__logo{
+        margin: 1rem;
+        width: 150px;
+        height: 60px;
+      }
+
+    &__menu{
+        grid-column: 4 / 7;
+        display: flex;
+        justify-content: space-around;
+
+        li{
+            list-style: none;
+            }
+
+        li a{
+                color: white;
+                cursor: pointer;
+            }    
+
+        li a:hover{
+                background-color: white;
+                color: $bgcolor;
+                border-radius: 3px;
+        }   
+
+        a{
+            text-decoration: none;
+          }
+
+
+    }
+    
+}
